@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>- Denotes required information</title>
+</head>
+
+<body bgcolor="#E6E6FA">
+<font color="red">
+	<h1>Donor Information</h1>
+</font>
+<form action="loginprocess.php" method="POST">
+	<font color="black">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  Address1: <input type="text" name="a1"><br>
+  Address2: <input type="text" name="a2"><br>
+  City: <input type="text" name="city"><br>
+  State:
+  <select>
+    
+    <option value="select a state">State</option>
+      <option value="dhaka">Dhaka</option>
+        <option value="chittagong">Chittagong</option>
+          <option value="Barisal">barisal</option>
+    
+  </select><br>
+  Zip code: <input type="text" name="a1"><br>
+  Country:
+   <select>
+
+    <option value="select a country">Country</option>
+      <option value="bangladesh">Bangladesh</option>
+        <option value="united kingdom">United Kingdom</option>
+          <option value="united states">United States</option>
+    
+  </select>
+  Phone: <input type="text" name="p"><br>
+  Fax: <input type="text" name="f"><br>
+  Email: <input type="text" name="e"><br>
+
+  Donation Amount:
+  <input type="radio" name="donation amount" value="none">None>
+  <input type="radio" name="donation amount" value="$50">$50>
+   <input type="radio" name="donation amount" value="$75">$75>
+    <input type="radio" name="donation amount" value="$100">$100>
+     <input type="radio" name="donation amount" value="$100">$100>
+      <input type="radio" name="donation amount" value="others">Others>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
